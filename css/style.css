@@ -1,0 +1,67 @@
+*{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 5px;
+     gap: 10px;
+     max-width: 1000px;
+}
+
+ul{
+     list-style: none;
+}
+
+.omelette-photo{
+     margin: 40px;
+     display: flex;
+     border-radius: 10px;
+     width: 1000px;
+
+}
+
+.title{
+     align-items: center;
+     color: brown;
+     margin: 30px;
+}
+
+.subtitle{
+     color: #7b284f;
+     justify-content: center;
+     align-items: center;
+     margin-left: 50px;
+}
+
+.preparation{
+     align-items: left;
+     display: flex;
+     padding: 20px;
+     background-color: beige;
+     
+}
+
+.instructions{
+     align-items: left;
+     justify-content: center;
+     padding: 0;
+     gap: 0px;
+}
+
+.nutritional-table{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nutritional-table th{
+     color: #000;
+     font-weight: 700;
+
+}
+
+.nutritional-table .value{
+     color: #7b284f;
+}
+
+.nutritional-table td{
+     border-bottom: 1px solid #121212;
+     
+}
